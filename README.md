@@ -12,6 +12,7 @@ Download twitchChatSim.py
 Open your terminal and run:
 
 python main.py
-4. Press enter and enjoy the fake clout.
+
+Press enter as prompted in terminal and enjoy the fake chat
 
 Feel free to open a pull request if you want to add more stupid phrases to the word list.
