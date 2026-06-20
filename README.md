@@ -1,4 +1,4 @@
-# TwitchChatSimulator
+# Twitch Chat Simulator
 
 A simple Python script that simulates a live Twitch chat. I made this for unpopular streamers who want to feel like they actually have viewers, or just for shits and giggles.
 
