@@ -19,17 +19,15 @@ words = ["HUH", "dank", "LMAO", "LOL", "sonion ring", "bruh", "tuff", "dih", "go
 
 def message_generator():
     amount_of_words = random.randint(1, 6)
-    # 1. Grab a unique random sample of words from the list
+    # get a unique sample from list
     chosen_words = random.choices(words, k=amount_of_words)
-    # 2. Join them with spaces into a single continuous sentence layout
+    # join them
     sentence = " ".join(chosen_words)
 
     username = (random.choice(username_words1) + random.choice(username_words2))
 
-    # 3. Pick a random number between 31 and 36 for the text color code
     color_code = random.randint(31, 36)
 
-    # 4. Wrap the username in the ANSI escape codes using the random number
     return f"\033[{color_code}m{username}\033[0m: {sentence}"
 
 
